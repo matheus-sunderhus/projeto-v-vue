@@ -1,41 +1,41 @@
 {
-  "name": "projeto-v-vue",
-  "bucket": "projeto-v-vue-20240508195159",
+  "name": "projeto-v-vue-20240614140821",
+  "bucket": "projeto-v-vue-20240614140821",
   "preset": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240508195151",
+  "prefix": "20240614140820",
   "not-first-run": true,
   "function": {
-    "id": 22829,
+    "id": 48697,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 22378,
+    "instance-id": 53164,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1715193108,
+    "id": 1718370174,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1715191927,
-    "name": "projeto-v-vue",
-    "domain_name": "fr3wa7x2n1.map.azionedge.net",
-    "url": "https://fr3wa7x2n1.map.azionedge.net"
+    "id": 1718371583,
+    "name": "projeto-v-vue-20240614140821",
+    "domain_name": "mepph59rm5.map.azionedge.net",
+    "url": "https://mepph59rm5.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 131842,
-      "origin-key": "7dd806aa-18af-400e-a220-d0157e9191e9",
-      "name": "projeto-v-vue_single"
+      "origin-id": 370114,
+      "origin-key": "421158e1-80c5-4bf6-9b35-9d7769ab7c3a",
+      "name": "projeto-v-vue-20240614140821_single"
     },
     {
-      "origin-id": 131844,
-      "origin-key": "147c186f-0e11-4d62-be55-8f6118795a97",
+      "origin-id": 370115,
+      "origin-key": "4a0a3f02-9bf2-42e7-92ad-f71fb104f656",
       "name": "origin-storage-default"
     }
   ],
@@ -43,16 +43,16 @@
     "created": false,
     "rules": [
       {
-        "id": 248971,
-        "name": "Main_Rule"
+        "id": 428454,
+        "name": "Set Storage Origin for All Requests"
       },
       {
-        "id": 248975,
-        "name": "Index_Rewrite_1"
+        "id": 428455,
+        "name": "Deliver Static Assets"
       },
       {
-        "id": 248978,
-        "name": "Index_Rewrite_2"
+        "id": 428456,
+        "name": "Redirect to index.html"
       }
     ]
   },
