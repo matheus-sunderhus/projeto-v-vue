@@ -1,41 +1,41 @@
 {
-  "name": "projeto-v-vue-20240614144830",
-  "bucket": "projeto-v-vue-20240614144830",
+  "name": "projeto-v-vue-20240619142717",
+  "bucket": "projeto-v-vue-20240619142717",
   "preset": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240614144829",
+  "prefix": "20240619142716",
   "not-first-run": true,
   "function": {
-    "id": 48702,
+    "id": 49041,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 53169,
+    "instance-id": 53499,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1718370179,
+    "id": 1718801864,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1718371588,
-    "name": "projeto-v-vue-20240614144830",
-    "domain_name": "bs5yj3s2xq.map.azionedge.net",
-    "url": "https://bs5yj3s2xq.map.azionedge.net"
+    "id": 1718802694,
+    "name": "projeto-v-vue-20240619142717",
+    "domain_name": "vfau11efgo.map.azionedge.net",
+    "url": "https://vfau11efgo.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 370124,
-      "origin-key": "083d4ae8-aa45-4661-ab61-bb8cb94c0c35",
-      "name": "projeto-v-vue-20240614144830_single"
+      "origin-id": 371988,
+      "origin-key": "ba40079b-a5c2-422b-90eb-27eb749c1511",
+      "name": "projeto-v-vue-20240619142717_single"
     },
     {
-      "origin-id": 370125,
-      "origin-key": "ad93f8a7-4104-4afb-a5b1-e58e913dd7c4",
+      "origin-id": 371989,
+      "origin-key": "9f3dade4-4d55-4ba6-9637-f7531f1a35bd",
       "name": "origin-storage-default"
     }
   ],
@@ -43,15 +43,15 @@
     "created": false,
     "rules": [
       {
-        "id": 428479,
+        "id": 430720,
         "name": "Set Storage Origin for All Requests"
       },
       {
-        "id": 428480,
+        "id": 430721,
         "name": "Deliver Static Assets"
       },
       {
-        "id": 428481,
+        "id": 430722,
         "name": "Redirect to index.html"
       }
     ]
